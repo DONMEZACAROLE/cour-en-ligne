@@ -1,0 +1,210 @@
+body {
+    background-color: #13678a;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation .logo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation i {
+    font-size: 30px;
+    color: #13678a;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form .form-group {
+    margin-bottom: 20px;
+}
+
+.form-group-civilite div {
+    display: flex !important;
+    justify-content: space-around;
+}
+
+/*.form-group-civilite div input {
+    display: none !important;
+}*/
+
+.form .form-group label,
+.form .form-group input {
+    display: block;
+    font-size: 24px;
+}
+
+.form .form-group label {
+    margin-bottom: 2px;
+    color: #fafafa;
+}
+
+.form .form-group input[type="text"] {
+    width: 400px;
+    padding: 10px;
+}
+
+.form .form-group input[type="email"] {
+    width: 400px;
+    padding: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation a {
+    padding: 0 10px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+}
+
+/*.cards {
+      border: 5px solid #f63b0a;
+}*/
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #fafafa;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.profile-icons,
+.company-icons {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.profile-icons i,
+.company-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.profile-icons {
+    background: #fafafa;
+}
+
+.profile-icons i {
+    color: #f63b0a;
+}
+
+.error {
+    color: #f63b0a;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.description {
+    background-color: #1e2328;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.description h3 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.profile {
+    background-color: #f63b0a;
+    padding-bottom: 20px;
+    padding-top: 180px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.job {
+    margin: 2px 0 20px;
+}
+
+.image-wrapper {
+    height: 40px;
+    position: relative;
+}
+
+.image {
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #13678a;
+    position: absolute;
+    left: 16%;
+}
+
+.conditions {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    background-color: #272795;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    background-color: #fafafa;
+    padding: 10px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.posts {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

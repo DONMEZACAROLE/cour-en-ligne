@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creer un utilisateur</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .success,
+        .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+
+        .success {
+            background: green;
+        }
+
+        .error {
+            background: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <!-- logo -->
+        <div class="logo">
+            <a href="index.html">CD</a>
+        </div>
+        <!-- pages -->
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a href="emplois.html">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+            </li>
+            <li>
+                <a href="creer.html">
+                    <i class="fa-solid fa-circle-plus"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- profil -->
+        <a href="">
+            <i class="fa-regular fa-user"></i>
+        </a>
+    </nav>
+    <section class="container-flex">
+        <!-- Carte de visite 1 -->
+        <div class="card" onmouseover="changeBackground('profile-1','#1e2328')"
+            onmouseleave="changeBackground('profile-1', '#f63b0a')">
+            <div class="image-wrapper">
+                <img src="img/carole.jpg" alt="image" class="image" width="200px" height="200px">
+            </div>
+            <div class="profile" id="profile-1">
+                <h3 onclick="masquerAbout()" class="text-center text-white underline">CDTECHNOLOGIES</h3>
+                <p class="text-center text-white name ">CAROLE DONMEZA</p>
+                <p class="text-center job">CEO</p>
+                <div class="profile-icons">
+                    <a href="Tel:+237650717972"><i class="fa-solid fa-mobile"></i></a>
+                    <a href="mailto:donmezatsopze@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="description" id="description">
+                <h3>ABOUT ME</h3>
+                <div class="text">
+                  
+                </div>
+
+            </div>
+            <div class="company-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+        </div>
+        <!-- Carte de visite 2 -->
+        <div class="card" onmouseover="changeBackground('profile-3', '#1e2328')"
+            onmouseleave="changeBackground('profile-3', '#f63b0a')">
+            <div class="image-wrapper">
+                <img src="img/carole.jpg" alt="image" class="image" width="200px" height="200px">
+            </div>
+            <div class="profile">
+                <h3 class="text-center text-white underline">CDTECHNOLOGIES</h3>
+                <p class="text-center text-white name ">CAROLE DONMEZA</p>
+                <p class="text-center job">CEO</p>
+                <div class="profile-icons">
+                    <a href="Tél:+237650717972"><i class="fa-solid fa-mobile"></i></a>
+                    <a href="mail:donmezatsopze@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="description">
+                <h3>ABOUT ME</h3>
+                <div class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut eveniet, aliquam dolore esse,
+                    molestias
+                    dignissimos molestiae, dicta explicabo animi inventore reiciendis totam accusamus laboriosam
+                    nesciunt
+                    maiores quibusdam? Magnam, at.
+                </div>
+
+            </div>
+            <div class="company-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+        </div>
+        <!-- Carte de visite 3 -->
+        <div class="card" onmouseover="changeBackground('profile-3', '#1e2328')"
+            onmouseleave="changeBackground('profile-3', '#f63b0a')">
+            <div class="image-wrapper">
+                <img src="img/carole.jpg" alt="image" class="image" width="200px" height="200px">
+            </div>
+            <div class="profile">
+                <h3 class="text-center text-white underline">CDTECHNOLOGIES</h3>
+                <p class="text-center text-white name ">CAROLE DONMEZA</p>
+                <p class="text-center job">CEO</p>
+                <div class="profile-icons">
+                    <a href="Tél:+237650717972"><i class="fa-solid fa-mobile"></i></a>
+                    <a href="mail:donmezatsopze@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="description">
+                <h3>ABOUT ME</h3>
+                <div class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut eveniet, aliquam dolore esse,
+                    molestias
+                    dignissimos molestiae, dicta explicabo animi inventore reiciendis totam accusamus laboriosam
+                    nesciunt
+                    maiores quibusdam? Magnam, at.
+                </div>
+
+            </div>
+            <div class="company-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+        </div>
+        <!-- Carte de visite 1 -->
+        <div class="card" onmouseover="changeBackground('profile-3', '#1e2328')"
+            onmouseleave="changeBackground('profile-3', '#f63b0a')">
+            <div class="image-wrapper">
+                <img src="img/carole.jpg" alt="image" class="image" width="200px" height="200px">
+            </div>
+            <div class="profile">
+                <h3 class="text-center text-white underline">CDTECHNOLOGIES</h3>
+                <p class="text-center text-white name ">CAROLE DONMEZA</p>
+                <p class="text-center job">CEO</p>
+                <div class="profile-icons">
+                    <a href="Tél:+237650717972"><i class="fa-solid fa-mobile"></i></a>
+                    <a href="mail:donmezatsopze@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="description">
+                <h3>ABOUT ME</h3>
+                <div class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut eveniet, aliquam dolore esse,
+                    molestias
+                    dignissimos molestiae, dicta explicabo animi inventore reiciendis totam accusamus laboriosam
+                    nesciunt
+                    maiores quibusdam? Magnam, at.
+                </div>
+
+            </div>
+            <div class="company-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+        </div>
+    </section>
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
